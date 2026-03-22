@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #BB86FC;
+  --secondary-color: #03DAC6;
+  --accent-color: #1E1E1E;
+  --shadow-color: #121212;
+  --text-color: #E1E1E1;
+  --bg-color: #121212;
+}
+
+button.primary {
+  padding: 10px;
+  border: solid 1px var(--primary-color);
+  background: var(--primary-color);
+  color: #000;
+  border-radius: 8px;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

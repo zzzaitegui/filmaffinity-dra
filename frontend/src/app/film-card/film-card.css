@@ -1,0 +1,46 @@
+.film-card {
+  background: var(--accent-color);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1% 4%;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+.film-day {
+  font-family: 'Outfit', sans-serif;
+  font-size: 4vw;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 0.2vw;
+}
+.film-title {
+  color: var(--text-color);
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.9vw;
+  font-weight: 600;
+  margin-bottom: 0.1vw;
+  padding: 0;
+}
+.film-date {
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.6vw;
+  color: #aaa;
+  margin-bottom: 0.1vw;
+}
+.film-card a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 0.6vw;
+}
+.film-card a::after {
+  content: " \203A";
+}
