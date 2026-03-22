@@ -1,0 +1,9 @@
+# Angular
+frontend/node_modules/
+frontend/.angular/
+
+# Spring Boot
+backend/target/
+
+# Scripts
+scripts/node_modules/
