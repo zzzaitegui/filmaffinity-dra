@@ -37,7 +37,7 @@ docker-compose down
 
 ## Fuente de los Datos
 
-Los datos de las películas se extraen de [FilmAffinity](https://www.filmaffinity.com/es/movies-soon.html). Todos los datos pertenecen a FilmAffinity y se utilizan únicamente con fines educativos.
+Los datos de las películas se extraen de [FilmAffinity (UK)](https://www.filmaffinity.com/uk/cat_new_th_uk.html). Todos los datos pertenecen a FilmAffinity y se utilizan únicamente con fines educativos.
 
 ## Tecnologías Utilizadas
 
